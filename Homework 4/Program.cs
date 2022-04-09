@@ -45,12 +45,10 @@ Console.Write("Сумма цифр этого числа " + SumOfDigit(C));
 //1, 2, 5, 7, 19 -> [1, 2, 5, 7, 19]
 //6, 1, 33 -> [6, 1, 33]
 
-int N = 8;
-
-int[] Array8(int numD)
+int[] Array8()
 {
-    int[] arrayd = new int[numD];
-    for (int i = 0; i < numD; i++)
+    int[] arrayd = new int[8];
+    for (int i = 0; i < 8; i++)
     {
         arrayd[i] = Convert.ToInt32(Console.ReadLine());
     }
