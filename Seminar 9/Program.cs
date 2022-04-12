@@ -27,28 +27,3 @@ Console.WriteLine($"{Peresechenie(bline1, kline1, bline2, kline2)}");
 // Задача 2
 // Показать треугольник Паскаля. Сделать вывод в виде 
 // равнобедренного треугольник
-int[,] CreateTriangle (int size)
-{
-    int[,] triangle = new int [size, size];
-    for(int i = 0; i < size; i ++)
-    {
-        triangle[i, 0] = 1;
-        triangle[i, i] = 1;
-    }
-    for (int i = 2; i < size; i++)
-    {
-        for (int j = 1; j < i; j++)
-        {
-            triangle[i,j] = triangle[i-1, j-1] + triangle[i-1,j];
-        }
-    }
-PrintMatrix(triangle);
-return triangle;
-}
-CreateTriangle(int[,] array)
-{
-    for (int i = 0; i < length; i++)
-    {
-        
-    }
-}
