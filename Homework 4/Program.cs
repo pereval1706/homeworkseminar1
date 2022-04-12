@@ -65,3 +65,4 @@ void ResultArray(int[] array)
 Console.Write("Введите 8 чисел ");
 Console.WriteLine();
 ResultArray(Array8());
+
